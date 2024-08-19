@@ -1,0 +1,19 @@
+127.0.0.1/feedmanagementsystem/horse/		http://localhost/phpmyadmin/index.php?route=/database/sql&db=feedmanagementsystem
+
+   Showing rows 0 -  6 (7 total, Query took 0.0003 seconds.)
+
+
+SELECT h.`Name` AS HorseName, SUM(fr.`QuantityFed`) AS TotalQuantityFed
+FROM `horse` h
+JOIN `feeding record` fr ON h.`HorseID` = fr.`HorseID`
+GROUP BY h.`Name`;
+
+
+HorseName	TotalQuantityFed	
+Bucephalus	3	
+Chestnut	4	
+Midnight	8	
+Pegasus	7	
+Shadowfax	5	
+Silver	2	
+Thunder	6	

@@ -1,0 +1,17 @@
+127.0.0.1/feedmanagementsystem/horse/		http://localhost/phpmyadmin/index.php?route=/database/sql&db=feedmanagementsystem
+
+   Showing rows 0 -  6 (7 total, Query took 0.0002 seconds.)
+
+
+SELECT `Name` AS HorseName, `Breed`
+FROM `horse`;
+
+
+HorseName	Breed	
+Shadowfax	Andalusian	
+Bucephalus	Thoroughbred	
+Pegasus	Arabian	
+Silver	Morgan	
+Thunder	Quarter Horse	
+Midnight	Friesian	
+Chestnut	Appaloosa	

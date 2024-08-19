@@ -1,0 +1,11 @@
+127.0.0.1/feedmanagementsystem/hay bale/		http://localhost/phpmyadmin/index.php?route=/database/sql&db=feedmanagementsystem
+
+   Showing rows 0 -  1 (2 total, Query took 0.0003 seconds.)
+
+
+SELECT * FROM `hay bale` WHERE `Quantity` < 10;
+
+
+BaleID	Quantity	DateReceived	SupplierID	Quality	
+2	8	2023-01-02	2	85	
+4	5	2023-01-04	4	88	

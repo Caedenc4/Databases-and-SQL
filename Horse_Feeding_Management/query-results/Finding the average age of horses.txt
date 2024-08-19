@@ -1,0 +1,10 @@
+127.0.0.1/feedmanagementsystem/horse/		http://localhost/phpmyadmin/index.php?route=/database/sql&db=feedmanagementsystem
+
+   Showing rows 0 -  0 (1 total, Query took 0.0002 seconds.)
+
+
+SELECT AVG(`Age`) AS AverageAge FROM `horse`;
+
+
+
+8.1429	

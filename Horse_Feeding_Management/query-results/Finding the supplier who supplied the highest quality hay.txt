@@ -1,0 +1,12 @@
+127.0.0.1/feedmanagementsystem/st/		http://localhost/phpmyadmin/index.php?route=/database/sql&db=feedmanagementsystem
+
+   Showing rows 0 -  0 (1 total, Query took 0.0004 seconds.)
+
+
+SELECT st.`Name` AS SupplierName, MAX(hb.`Quality`) AS MaxQuality
+FROM `hay bale` hb
+JOIN `supplier table` st ON hb.`SupplierID` = st.`SupplierID`;
+
+
+
+SupplierA	94	

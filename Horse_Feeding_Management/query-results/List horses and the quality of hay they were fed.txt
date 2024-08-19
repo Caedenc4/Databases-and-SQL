@@ -1,0 +1,19 @@
+127.0.0.1/feedmanagementsystem/		http://localhost/phpmyadmin/index.php?route=/database/sql&db=feedmanagementsystem
+
+   Showing rows 0 -  6 (7 total, Query took 0.0002 seconds.)
+
+
+SELECT h.`Name` AS HorseName, hb.`Quality`
+FROM `horse` h
+JOIN `feeding record` fr ON h.`HorseID` = fr.`HorseID`
+JOIN `hay bale` hb ON fr.`BaleID` = hb.`BaleID`;
+
+
+HorseName	Quality	
+Shadowfax	90	
+Bucephalus	85	
+Pegasus	92	
+Silver	88	
+Thunder	91	
+Midnight	89	
+Chestnut	94	

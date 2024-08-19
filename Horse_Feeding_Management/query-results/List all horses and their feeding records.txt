@@ -1,0 +1,18 @@
+127.0.0.1/feedmanagementsystem/		http://localhost/phpmyadmin/index.php?route=/database/sql&db=feedmanagementsystem
+
+   Showing rows 0 -  6 (7 total, Query took 0.0003 seconds.)
+
+
+SELECT h.`Name` AS HorseName, fr.`DateFed`, fr.`QuantityFed`
+FROM `horse` h
+JOIN `feeding record` fr ON h.`HorseID` = fr.`HorseID`;
+
+
+HorseName	DateFed	QuantityFed	
+Shadowfax	2023-01-08	5	
+Bucephalus	2023-01-09	3	
+Pegasus	2023-01-10	7	
+Silver	2023-01-11	2	
+Thunder	2023-01-12	6	
+Midnight	2023-01-13	8	
+Chestnut	2023-01-14	4	
